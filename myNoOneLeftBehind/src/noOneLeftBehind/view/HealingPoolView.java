@@ -9,6 +9,6 @@ package noOneLeftBehind.view;
  *
  * @author Alexis
  */
-public class GateKeepPuzzle {
+public class HealingPoolView {
     
 }

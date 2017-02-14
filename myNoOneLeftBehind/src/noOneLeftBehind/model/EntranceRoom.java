@@ -9,6 +9,6 @@ package noOneLeftBehind.model;
  *
  * @author Alexis
  */
-public class Room {
+public class EntranceRoom {
     
 }

@@ -29,6 +29,8 @@ public class ArtRoom {
     public ArtRoom() {
     }
     
+    
+    //Should move view stuff to view....
     public void displayArtRoom() {
     //This will be for the very first room only...   
     System.out.println("--------------------------------------------------------------- \n");

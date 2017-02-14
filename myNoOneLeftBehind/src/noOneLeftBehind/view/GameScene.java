@@ -20,9 +20,14 @@ public class GameScene {
     public void displayOpening() {
         //Display opening message
         System.out.println("--------------------------------------------------------------- \n");
-        System.out.println("After days of searching...");
-        System.out.println("You find yourself outside a giant abandoned mansion. ");
-        System.out.println("You know you must enter... ");
+        System.out.print("Your dear friend, PERSON, has been missing for weeks...         \n");
+        System.out.print("You know he recently heard rumours of an artifcat and he may    \n");
+        System.out.print("have went looking for it. But you can no longer sit around and  \n");
+        System.out.print("wait.  You decided you most go after him...                     \n");
+        System.out.println("--------------------------------------------------------------- \n");
+        System.out.print("After days of searching...\n");
+        System.out.print("You find yourself outside a giant abandoned mansion. \n");
+        System.out.print("You know you must enter... \n");
         System.out.println("--------------------------------------------------------------- \n");
     }
     

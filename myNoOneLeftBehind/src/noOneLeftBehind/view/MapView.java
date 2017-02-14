@@ -12,14 +12,14 @@ import java.io.Serializable;
  * @author Alexis
  */
 
-public class Map implements Serializable {
+public class MapView implements Serializable {
 
     // Member Variables
     private int activeFloor;
     private int activeRoom;
     
     //Consructors.
-    public Map() {
+    public MapView() {
     }
     
     //Getters and Setters
@@ -66,7 +66,7 @@ public class Map implements Serializable {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Map other = (Map) obj;
+        final MapView other = (MapView) obj;
         if (this.activeFloor != other.activeFloor) {
             return false;
         }

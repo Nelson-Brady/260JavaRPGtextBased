@@ -19,7 +19,6 @@ public class NoOneLeftBehind {
     private static Game currentGame = null;
     
     //Getters setters
-
     public static Player getPlayer() {
         return player;
     }
@@ -39,8 +38,7 @@ public class NoOneLeftBehind {
     
     
     
-    //Functions
-    
+    //Functions / Methods
     public static void main(String[] args) {
         
         //System objects
@@ -53,12 +51,12 @@ public class NoOneLeftBehind {
         *This section is just for testing object instance creation
         *Remove this section when done
         *********************************************************/ 
-        Player playerOne = new Player();
-        playerOne.setName("Donald Trump");
-        playerOne.setBestTime(800);
+        //Player playerOne = new Player();
+        //playerOne.setName("Donald Trump");
+        //playerOne.setBestTime(800);
         
-        String playerInfo = playerOne.toString();
-        System.out.println(playerInfo);
+        //String playerInfo = playerOne.toString();
+        //System.out.println(playerInfo);
         
         //Display the Classes version of the game startup
         StartProgram startGame = new StartProgram();
@@ -134,3 +132,4 @@ public class NoOneLeftBehind {
     }
 
 }
+

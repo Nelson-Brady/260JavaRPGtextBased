@@ -20,7 +20,7 @@ public class StartProgram {
     public StartProgram() {
         
         //Display the prompt message
-        this.promptMessage = "\nPlease enter your name: ";
+        this.promptMessage = "\nPlease enter your brave hero's name: ";
 
         //Display the banner when view is created
         this.displayBanner();
@@ -29,9 +29,14 @@ public class StartProgram {
     private void displayBanner() {
         
         System.out.println(
-                "\n************************************"
-                +"\n*                                 *"
-                +"\n* Blah Blah Blah Blah Blah Blah   *"
+                "\n********************************************"
+                +"\n*           No One Left Behind            *"
+                +"\n*         A simple dungeon crawl,         *"
+                +"\n*             text based RPG              *"
+                +"\n*             By Brady Nelson             *"
+                +"\n*                                         *"
+                +"\n*******************************************"          
+                
         );
         
         
@@ -99,16 +104,16 @@ public class StartProgram {
     private void displayNextView(Player player) {
         //Display message to player
         System.out.println("\n================================="
-                           +"\n Welcome to the game " + player.getName()
-                           +"\n Blah !"
+                           +"\n Welcome to the game, " + player.getName()
+                           +"\n May luck guide you !"
                            +"\n================================="
                             );
         
         // Create main menu view object
-        MainMenuView mainMenuView = new MainMenuView();
+        //MainMenuView mainMenuView = new MainMenuView();
         
         //Display the main menu view
-        mainMenuView.displayMainMenuView();
+        //mainMenuView.displayMainMenuView();
     }
     
     

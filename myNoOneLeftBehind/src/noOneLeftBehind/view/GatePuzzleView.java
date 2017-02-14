@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package noOneLeftBehind.model;
+package noOneLeftBehind.view;
 
 /**
  *
  * @author Alexis
  */
-public class Room {
+public class GatePuzzleView {
     
 }
