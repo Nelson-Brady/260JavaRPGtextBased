@@ -20,11 +20,12 @@ public class BattleScene {
         
         //Get random monster
         GetEnemy newEnemy = new GetEnemy();
+        String enemy = newEnemy.genNewEnemy();
         //String enemy = newEnemy.getEnemyType();
         
         //Display enemy information
         System.out.println("--------------------------------------------------------------- \n");
-       // System.out.println("It's a " + enemy + "!");
+        System.out.println("It's a " + enemy + "!");
         
         //Get correct enemy type
         
